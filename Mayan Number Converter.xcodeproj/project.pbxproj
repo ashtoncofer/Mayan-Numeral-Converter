@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		1C006CAC230EF3E5000A5487 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C006CAB230EF3E5000A5487 /* AppDelegate.swift */; };
-		1C006CAE230EF3E5000A5487 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C006CAD230EF3E5000A5487 /* SceneDelegate.swift */; };
-		1C006CB0230EF3E5000A5487 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C006CAF230EF3E5000A5487 /* ViewController.swift */; };
+		1C006CB0230EF3E5000A5487 /* BeginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C006CAF230EF3E5000A5487 /* BeginViewController.swift */; };
 		1C006CB3230EF3E5000A5487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C006CB1230EF3E5000A5487 /* Main.storyboard */; };
 		1C006CB5230EF3E7000A5487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C006CB4230EF3E7000A5487 /* Assets.xcassets */; };
 		1C006CB8230EF3E7000A5487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C006CB6230EF3E7000A5487 /* LaunchScreen.storyboard */; };
+		1C006CC0230EF4FE000A5487 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C006CBF230EF4FE000A5487 /* AnswerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C006CA8230EF3E5000A5487 /* Mayan Number Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mayan Number Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C006CAB230EF3E5000A5487 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1C006CAD230EF3E5000A5487 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1C006CAF230EF3E5000A5487 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C006CAF230EF3E5000A5487 /* BeginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginViewController.swift; sourceTree = "<group>"; };
 		1C006CB2230EF3E5000A5487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C006CB4230EF3E7000A5487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C006CB7230EF3E7000A5487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C006CB9230EF3E7000A5487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C006CBF230EF4FE000A5487 /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				1C006CAB230EF3E5000A5487 /* AppDelegate.swift */,
-				1C006CAD230EF3E5000A5487 /* SceneDelegate.swift */,
-				1C006CAF230EF3E5000A5487 /* ViewController.swift */,
+				1C006CAF230EF3E5000A5487 /* BeginViewController.swift */,
 				1C006CB1230EF3E5000A5487 /* Main.storyboard */,
+				1C006CBF230EF4FE000A5487 /* AnswerViewController.swift */,
 				1C006CB4230EF3E7000A5487 /* Assets.xcassets */,
 				1C006CB6230EF3E7000A5487 /* LaunchScreen.storyboard */,
 				1C006CB9230EF3E7000A5487 /* Info.plist */,
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C006CB0230EF3E5000A5487 /* ViewController.swift in Sources */,
+				1C006CC0230EF4FE000A5487 /* AnswerViewController.swift in Sources */,
+				1C006CB0230EF3E5000A5487 /* BeginViewController.swift in Sources */,
 				1C006CAC230EF3E5000A5487 /* AppDelegate.swift in Sources */,
-				1C006CAE230EF3E5000A5487 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7KMBX77FUY;
 				INFOPLIST_FILE = "Mayan Number Converter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7KMBX77FUY;
 				INFOPLIST_FILE = "Mayan Number Converter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
